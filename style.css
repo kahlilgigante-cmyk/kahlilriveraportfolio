@@ -209,7 +209,8 @@ header{}
 
 	.pop_box2{width:100%;height:100%;position: relative;overflow: hidden;}
 	.banner_pic{}
-	.banner_pic img{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);max-width: initial;}
+	/* .banner_pic img{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);max-width: initial;} */
+	.banner_pic img{position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);max-width: 100%;}
 
 	.workBtn{position:absolute;bottom:50px;left:0;right:0;text-align: center;animation-delay: 2.8s;}
 	.workBtn a{display:inline;vertical-align: top;font-size:22px;color:#fff;font-family: var(--third-font);position:relative;line-height: 100%;text-align: center;}
